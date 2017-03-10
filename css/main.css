@@ -1,0 +1,858 @@
+                    /* ================================= 
+                                 BASE STYLES
+                    ==================================== */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    overflow-x: hidden;
+    font-family: 'Gidugu', sans-serif;
+    background-color: #FFFAF0;
+    text-align: center;
+    width: 100%;
+    }
+body{
+    margin: 0;
+}
+
+h1 {
+   letter-spacing: 5px;    
+   text-shadow: 0 1px 0 #ccc;
+   }
+
+div h3 {
+    color: #CD6600;
+    margin: 0;
+    font-size: 1.75em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+
+ul {
+  list-style: none;
+  } 
+
+
+
+
+/* ================================= 
+            Navigation
+==================================== */
+
+
+
+.Main-header {
+    background-color: rgba(238,229,222,0.9);
+    width: 100%;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    margin-top: -10px;
+}
+
+
+.name {
+    padding-top: 35px;
+    margin: 0 auto;
+    
+}
+
+
+.name a {
+    color: black;
+    font-size: .9em;
+	display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+}
+
+.main-nav li {
+    display: block;
+    text-align: center;
+    }
+
+.main-nav a:hover {
+    color: #8B4726;
+}
+    
+.main-nav {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+    
+}
+    
+.main-nav a {
+    color: #CD6600;
+    font-size: 2em;
+    padding: 0;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+            
+
+
+/* ================================= 
+                FOOTER
+==================================== */
+
+
+
+
+.wrapper {
+  display: inline-flex;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #EEE5DE; 
+
+}
+
+i {
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+
+.wrapper i:nth-child(1) {
+  color: #4867AA;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(2) {
+  color: #1DA1F2;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(2):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(3) {
+  color: #813DB4;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(3):hover {
+  margin-top: -10px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -5);
+}
+.wrapper i:nth-child(4) {
+  color: #fffc00;
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 150ms;
+}
+.wrapper i:nth-child(4):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+  transform: translate(0, -8);
+}
+
+            
+
+
+                        /* ================================= 
+                                    HOME PAGE
+                        ==================================== */
+
+
+
+
+.welcomeHeader h3 {
+    font-size: 3em;
+    background-color: #EEE5DE;
+    margin-top: -14px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.welcomeHeaderTwo h3 {
+    font-size: 3em;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.paraContainerOne h3,
+.paraContainerTwo h3,
+.paraContainerThree h3{
+    margin: 25px auto;
+    font-size: 1.75em;
+    color: black;
+    background-color: #EEE5DE;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    border: 5px solid #EEE5DE;
+    
+}
+
+.homePara {
+    text-align: left;
+    font-size: 1.95em;
+    margin: 50px 0;
+    padding: 0 15px 0 15px;
+    color: #CD6600;
+    
+    
+}
+
+.newsletterContainer {
+    margin-top: 65px;
+    margin-bottom: -5px;
+    background-color: #EEE5DE;
+    padding: 25px 0;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+
+        
+
+
+
+/***********************    
+      Sign up Form    
+***********************/
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+#feedback-page{
+	text-align:center;
+}
+
+
+
+#form-container {
+    margin: 45px auto;
+    background-color:rgba(72,72,72,0.5);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:45px;
+	max-width: 90%;
+    width: 390px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    max-height: 485px;
+    
+    
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #8B4726;
+	color: #CD6600;
+	outline: none;
+    padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#CD6600;
+	border:#8B4726 solid 3px;
+}
+
+/************************ Icons ******************/
+
+
+
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#comment{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-orange{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #CD6600;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    margin-top:-2px;
+    font-weight:700;
+}
+
+#button-orange:hover{
+	background-color: rgba(0,0,0,0);
+	color: #8B4726;
+}
+	
+.submit:hover {
+	color: #CD6600;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+    
+}
+
+.submit:hover .ease{
+    width:100%;
+    background-color:white;
+}
+        
+
+
+/* ================================= 
+            Picture Banner
+==================================== */
+
+.banner img {
+    max-width: 100%;
+    height: inherit;
+}
+
+
+
+                    /* ================================= 
+                                PROJECTS PAGE
+                    ==================================== */
+
+.lightboxHeader h3 {
+    letter-spacing: 5px;
+    margin: 75px auto;
+    font-size: 1.75em;
+    color: #CD6600;
+    background-color: #EEE5DE;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #EEE5DE;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    
+}
+
+.videoHeader h3 {
+    letter-spacing: 5px;
+    margin: 75px auto;
+    font-size: 1.75em;
+    color: #CD6600;
+    background-color: #EEE5DE;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #EEE5DE;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000; 
+}
+
+.checkbackHeader h3 {
+    letter-spacing: 5px;
+    margin: 75px auto;
+    padding: 0 10px;
+    font-size: 1.75em;
+    color: #CD6600;
+    background-color: #EEE5DE;
+    text-align: center;
+    line-height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #EEE5DE;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.video h3, .videoTwo h3 {
+    text-align: center;
+    font-family: 'Gidugu', sans-serif;
+    margin-bottom: 60px;
+    border-bottom: 10px solid #EEE5DE;
+    padding: 70px 50px;
+    text-transform: uppercase;
+    
+    }    
+
+
+/* ================================= 
+             LIGHTBOX
+==================================== */
+
+
+.lightboxContainer{
+	max-width: 800px;
+	margin: 5% auto;
+	padding: 45px;
+    border: 5px solid #EEE5DE;
+    margin-bottom: 150px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    background-color: #EEE5DE;
+
+}
+
+.text-center{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.lightbox-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lightbox-gallery div > img {
+  max-width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.lightbox-gallery div {
+  margin: 10px;
+  flex-basis: 180px;
+}
+
+/**********Lighbox CSS************/
+
+
+.lightbox{
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.lightbox img{
+	display: block;
+    margin: auto;
+    margin-top: 55px;
+    max-width: 75%;
+}
+
+.lightbox .caption{
+	margin: 15px auto;
+	width: 50%;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #eee;
+}
+
+
+
+/* ================================= 
+                VIDEOS
+==================================== */
+
+.video iframe {
+    margin-top: 50px;
+}
+
+.video iframe, 
+.videoTwo iframe  {
+    max-width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: none;
+    }
+
+
+                /* ================================= 
+                              ABOUT PAGE
+                ==================================== */
+
+.aboutHeader {
+    font-size: 2.95em;
+    color: #CD6600;
+    background-color: #EEE5DE;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 75px auto;
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #EEE5DE;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+.aboutContainer p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.aboutPara {
+    font-size: 2em;
+    text-align: left;
+    }
+
+                /* ================================= 
+                              CONTACTS PAGE
+                ==================================== */
+
+.phoneContainer {
+    border-bottom: 10px solid #EEE5DE; 
+    padding-bottom: 75px;
+    }
+
+.mailContainer {
+    margin-top: 45px;
+}
+
+
+
+.phoneContainer,
+.mailContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactHeader h3 {
+    font-size: 2.5em;
+    margin: 45px 0;
+}
+.mailPicture img,
+.phonePicture img {
+     width: 150px;
+     height; 150px;
+     margin: 45px 0;
+     border: 5px solid #EEE5DE;
+     -moz-box-shadow:    inset 0 0 10px #000000;
+     -webkit-box-shadow: inset 0 0 10px #000000;
+     box-shadow:         inset 0 0 10px #000000;
+     background-color: #EEE5DE;
+    }
+
+.phoneNumbers {
+    margin-top: 15px;
+}
+
+.email span,
+.phoneNumbers span {
+    list-style-type: none;
+    font-size: 2em;
+    margin: 15px 0;
+    text-align: center;
+    }
+
+.email {
+    margin-bottom: 65px;
+}
+
+
+                /* ================================= 
+                            MEDIA QUERIES 
+                ==================================== */
+
+@media only screen and (max-width: 480px) {
+  .lightbox-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+.lightbox > div {
+    margin-bottom: 10px;
+  }
+}
+
+/* ================================= 
+             MQ - 320px 
+ ==================================== */
+@media only screen and (min-width: 320px){
+    
+
+    
+
+/* ================================= 
+                MQ - 760px 
+==================================== */
+@media (min-width: 769px){
+    
+/************  MAIN HEADER   *************/
+
+.name {
+        padding: 0;
+    }
+    
+.name a {
+    font-size: 1.75em;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+.Main-header,
+.main-nav   {
+        display: flex;
+        }
+.Main-header {
+        flex-direction: column;
+        align-items: center;
+        }
+.main-nav li {
+      padding: 0 25px 0 25px;  
+    }
+
+/************  HOME PAGE   *************/
+
+.homePara {
+    text-align: center;
+    padding: 0 45px;
+    }
+    
+/************  PROJECTS PAGE   *************/
+    
+.video iframe, .videoTwo iframe  {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+    
+    .lightbox img {
+        max-width: 65%;
+        margin-top:;
+    }
+
+/************  ABOUT PAGE   *************/
+
+.aboutContainer p {
+    text-align: center;
+    padding: 0 25px;
+    }
+    
+/************  CONTACTS PAGE   *************/    
+
+    
+}
+
+
+/* ================================= 
+            MQ - 1025px 
+==================================== */
+@media (min-width: 1058px) {
+
+
+/************  BASE STYLES   *************/
+    
+body {
+        padding-top: 80px;
+    }
+
+/************  MAIN HEADER   *************/
+
+.Main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index:1000;
+}
+.name {
+    padding: 0 15px 0 15px;
+}
+
+.name a {
+	font-size: 1em;
+    padding-left: 30px;
+    }
+
+.main-nav {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.main-nav a {
+	padding: 15px 15px;
+    margin: 0;
+	display: block;
+    text-align: center;
+}
+
+.main-nav a:nth-child(1) {
+  cursor: pointer;
+  text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 150ms;
+}
+
+.main-nav a:nth-child(1):hover {
+  margin-top: -10px;
+  text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.5);
+  transform: translate(0, -8);
+}
+
+.main-nav a:hover {
+		color: #8B4726;
+	}
+
+    
+.Main-header, .main-nav {
+        flex-direction: row;
+        justify-content:space-around;
+        }
+
+/************  HOME PAGE   *************/
+    
+    
+.homePara {
+        padding: 25px 150px;
+    }
+
+.newsletterContainer h3 {
+    font-size: 2.5em;
+}    
+
+/************  PROJECTS PAGE   *************/    
+
+    .lightbox img {
+        max-width: 45%;
+        margin-top: 85px;
+    }
+    
+/************  ABOUT PAGE   *************/
+
+.aboutContainer p {
+    text-align: center;
+    padding: 0 50px;
+    }
+
+
+/************  CONTACTS PAGE   *************/
+    .mailContainer {
+        margin-left: 34px;
+    }
+    
+    .mailContainer,
+    .phoneContainer  {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 35px;
+        flex-direction: row;
+        }
+}
+    
+/* ================================= 
+            MQ - 1085px 
+==================================== */
+
+
+
+      
+
